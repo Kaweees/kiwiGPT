@@ -10,7 +10,8 @@ uv pip install -e .
 uv run jupyter notebook \
   --no-browser \
   --port=8889 \
-  --NotebookApp.ip='127.0.0.1'
+  --NotebookApp.ip='127.0.0.1' \
+  --NotebookApp.theme='dark'
 ```
 
 ```sh
