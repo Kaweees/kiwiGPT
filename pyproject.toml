@@ -11,4 +11,6 @@ dependencies = [
     "notebook>=7.4.4",
     "plotly>=6.2.0",
     "torch>=2.7.1",
+    "jax[cuda13]>=0.8.0",
+    "triton>=3.3.1",
 ]
