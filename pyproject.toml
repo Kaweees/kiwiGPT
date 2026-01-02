@@ -1,9 +1,14 @@
 [project]
 name = "kiwigpt"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
+description = "A template for developing production-ready Python applications."
+authors = [
+  { name = "Miguel Villa Floran", email = "miguel.villafloran@gmail.com" },
+]
 requires-python = ">=3.12"
+readme = "README.md"
+license = { file = "LICENSE" }
+
 dependencies = [
     "ipykernel>=6.30.0",
     "jupyter>=1.1.1",
@@ -13,4 +18,11 @@ dependencies = [
     "torch>=2.7.1",
     "jax[cuda13]>=0.8.0",
     "triton>=3.3.1",
+]
+
+
+[dependency-groups]
+dev = [
+  "pre-commit>=4.1.0",
+  "ipykernel>=6.29.5",
 ]
