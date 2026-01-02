@@ -1,28 +1,37 @@
 *
 
 !.github/
+!.github/**/
 !assets/
+!assets/**/
 !.editorconfig
+!.envrc
 !.gitattributes
 !.gitignore
+!.gitkeep
+!.gitmodules
 !.justfile
-!.pre-commit-config.yaml
+!.python-version
+!example.env
+!LICENSE
 !README.md
 
-!src/
-!src/**/
-!shared/
-!shared/**/
 !scripts/
 !scripts/**/
+!shared/
+!shared/**/
+!src/
+!src/**/
 
 !*.md
+!*.mdc
 !*.svg
 !*.png
 !*.nix
 !*.lock
-!*.py
-!*.ipynb
 !*.toml
 !*.yaml
+!*.yml
 !*.ini
+!*.py
+!*.ipynb
