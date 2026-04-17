@@ -1066,7 +1066,6 @@ name = "kiwigpt"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
-    { name = "ipykernel", marker = "sys_platform == 'linux' or sys_platform == 'win32'" },
     { name = "jax", extra = ["cuda13"], marker = "sys_platform == 'linux' or sys_platform == 'win32'" },
     { name = "jupyter", marker = "sys_platform == 'linux' or sys_platform == 'win32'" },
     { name = "matplotlib", marker = "sys_platform == 'linux' or sys_platform == 'win32'" },
@@ -1086,7 +1085,6 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "ipykernel", specifier = ">=6.30.0" },
     { name = "jax", extras = ["cuda13"], specifier = ">=0.8.0" },
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "matplotlib", specifier = ">=3.10.5" },
