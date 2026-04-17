@@ -15,7 +15,7 @@ default:
 # Install the virtual environment and pre-commit hooks
 install:
   @echo "Installing..."
-  @uv sync
+  @uv sync --all-groups
   @uv run pre-commit install --install-hooks
 
 update:
